@@ -1,0 +1,639 @@
+/* genral  */
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+/* genral end */
+/* -------------------- nevbar ------------------------- */
+.navbar {
+    position: fixed;
+    top: 0%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    height: 85px;
+}
+
+.navbar-brand {
+    color: #fff;
+    margin-left: 30px;
+    justify-content: center;
+    padding: 0% !important;
+}
+
+.navbar-collapse {
+    flex-grow: 0;
+    align-items: center;
+    margin-right: 100px;
+}
+@media screen and (min-width:992px) {
+    .navbar-collapse {
+        flex-grow: 0;
+        align-items: center;
+        margin-right: 100px;
+    }
+}
+
+
+/* icon */
+#icon {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+/* icon */
+
+.nav-item {
+    padding-left: 23px;
+}
+
+.nav-link {
+    font-size: 18px;
+}
+
+.nav-link:hover {
+    color: black !important;
+    background-color: lemonchiffon;
+
+}
+
+@media screen and (max-width: 1000px) {
+    .navbar-toggler {
+        flex-direction: column;
+        display: block;
+
+    }
+}
+
+/* --------------------  nevbar end -------------------------------  */
+
+/* carousel */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    color: black !important;
+}
+
+/* carousel End */
+
+/* ------------------ offer section -------------------------  */
+.heading h2 {
+    font-weight: 700;
+    font-size: 35px;
+    color: #232323;
+}
+
+.section-1 {
+    padding: 100px 0;
+
+}
+
+.heading p {
+    color: #212121;
+    margin: 0 auto;
+}
+
+/* -------------------- offer section End ---------------------------  */
+
+/* border */
+
+.border {
+    border: 1px solid black !important;
+    height: 2px;
+    margin: 20px auto 20px;
+    position: relative;
+    width: 80px;
+    background: #28ABE3;
+
+}
+
+/* border end */
+
+/* image member */
+
+.inline-block {
+    display: inline-block;
+}
+
+.img-fluid {
+    width: 100%;
+    height: auto;
+}
+
+@media screen and (min-width:768px) {
+    .inline-block {
+        width: 100%;
+        height: auto;
+        margin-top: 120px;
+    }
+
+}
+
+@media screen and (min-width:992px) {
+    .inline-block {
+        width: 100%;
+        height: auto;
+        margin-top: 12px;
+    }
+
+}
+
+/* image member end */
+
+/* ---------- services ------------- */
+
+.service-item {
+    border: 1px solid #eee;
+    margin-bottom: 30px;
+    padding: 50px 20px;
+    transition: all 0.3s ease 0s;
+    box-sizing: border-box;
+}
+
+.service-item:hover {
+    box-shadow: 3px 3px 5px 5px rgb(126, 126, 126);
+}
+
+.service-item i {
+    font-size: 30px;
+    display: inline-block;
+    background: #28ABE3 none repeat scroll 0 0;
+    border-radius: 30px;
+    box-shadow: 0 5px 6px 0 rgb(0 0 0 / 10%);
+    color: #fff;
+    height: 55px;
+    line-height: 55px;
+    margin-bottom: 20px;
+    width: 55px;
+    transition: all 0.3s ease 0s;
+}
+
+.service-item i:hover {
+    background: #fff;
+    color: #28ABE3;
+}
+
+.service-item h4 {
+    margin-bottom: 30px;
+    font-weight: 500;
+}
+
+.service-item p {
+    color: #373636;
+}
+
+/* meadia quary */
+
+@media screen and (min-width:1200px) {
+    .col-8 {
+        flex: 0 0 auto;
+        width: 720px;
+    }
+}
+
+@media screen and (min-width:992px) {
+    .col-8 {
+        flex: 0 0 auto;
+        width: 640px;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .col-8 {
+        flex: 0 0 auto;
+        width: 480px;
+    }
+}
+
+@media screen and (min-width:576px) {
+    .col-8 {
+        flex: 0 0 auto;
+        width: 540px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .col-md-4 {
+        flex: 0 0 33.333333%;
+        max-width: 33.333333%;
+    }
+}
+
+/* services end */
+
+/* -------------- we are family ------------------------- */
+
+.section-2 {
+    background-color: #f7f7f7;
+    padding-top: 70px;
+}
+
+.title {
+    padding-bottom: 50px;
+    overflow: hidden;
+}
+
+.checklist {
+    padding-left: 30px;
+}
+
+.checklist li {
+    position: relative;
+    margin-bottom: 15px;
+    font-size: 16px;
+    color: rgb(50, 50, 50);
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+.img-fluid {
+    width: 100%;
+    height: auto;
+}
+
+/* -------------------- we are family over -----------------------------  */
+
+
+/*----------------------------------- footer ------------------------------ */
+
+footer {
+    display: block;
+}
+
+.top-footer {
+    background-color: #222222;
+    border-top: 1px solid #404040;
+    padding: 100px 0 80px;
+}
+
+.cont-1 {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.top-footer h3 {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #fff;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+.top-footer p {
+    font-size: 13px;
+    line-height: 25px;
+    color: #bdbdbd;
+    font-weight: 300;
+    letter-spacing: 1px;
+    padding-right: 20px;
+    justify-content: left;
+    text-align: justify;
+}
+
+.top-footer li a {
+    font-size: 13px;
+    line-height: 30px;
+    color: #bdbdbd;
+    font-weight: 300;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    transition: color .3s;
+    font-family: "Source Sans Pro", sans-serif;
+    display: block;
+    text-decoration: none;
+}
+
+ol,
+ul {
+    list-style-type: none;
+}
+
+/* ------- media quary for footer-top container ------------------ */
+
+@media screen and (min-width:1200px) {
+    .container {
+        max-width: 1140px;
+    }
+}
+
+@media screen and (min-width:992px) {
+    .container {
+        max-width: 960px;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .container {
+        max-width: 720px;
+    }
+}
+
+@media screen and (min-width:576px) {
+    .container {
+        max-width: 540px;
+    }
+}
+
+/* ------------------------ footer-top over ---------------------------- */
+
+/*------------------------ footer-bottom ---------------------- */
+.footer-bottom {
+    text-align: center;
+    background-color: #1b1b1b;
+    border-top: 1px solid #2c2c2c;
+    padding: 30px 0;
+}
+
+.footer-bottom h5 {
+    font-size: 12px;
+    line-height: 1;
+    color: #888888;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 7px;
+    margin-bottom: 8px
+}
+
+.footer-bottom h6 {
+    font-size: 11px;
+    line-height: 15px;
+    color: #888888;
+    font-weight: 400;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    margin-bottom: 0;
+}
+
+/* -------------------- footer-bottom over ----------------------------  */
+
+
+/* --------------------------------------- About page css ------------------------------- */
+.about {
+    background-image: url(/image/about-header.jpg);
+    /* background-image: linear-gradient(to right,#ffa7b2,#ffdde1); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 300px 0 150px;
+    color: #fff;
+    position: relative;
+}
+
+.about h2 {
+    text-align: center;
+    justify-content: center;
+    color: rgb(0, 0, 93);
+    font-weight: 600;
+}
+
+.create {
+    padding: 70px;
+}
+
+.company-img {
+    padding: 50px;
+    max-width: 100%;
+}
+
+.company-vision {
+    padding: 30px;
+}
+
+.bg-gray {
+    background-color: #f9f9f9;
+}
+
+.company-vision p {
+    /* justify-content: space-between; */
+    text-align: justify;
+    color: #656464;
+}
+
+.company-vision img {
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+/* ------------ team section css -------------- */
+
+.team {
+    padding: 100px 0;
+    padding-bottom: 70px;
+    background-color: #f6f6f6;
+}
+
+.team title {
+    padding-bottom: 50px;
+    overflow: hidden;
+    text-align: center !important;
+}
+
+.team title h2 {
+    font-weight: 600;
+    font-size: 35px;
+    color: #232323;
+}
+
+.team title p {
+    color: #848484;
+    margin: 0 auto;
+}
+
+.team .team-member {
+    background: #fff;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.team .member-photo {
+    overflow: hidden;
+    position: relative;
+}
+
+.team .team-member .member-content {
+    padding: 25px 0;
+}
+
+.team .team-member .member-content h3 {
+    font-size: 20px;
+    margin: 0 0 5px;
+    color: #333;
+}
+
+.team .team-member .member-content span {
+    font-size: 14px;
+    color: #555;
+}
+
+
+/* ---------------- team section css over ----------------- */
+
+/* about page css over */
+
+/* --------------------------- services page css -----------------------  */
+
+.service {
+    background-image: url(/image/about-header.jpg);
+    /* background-image: linear-gradient(to right,#ffa7b2,#ffdde1); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 300px 0 150px;
+    color: #fff;
+    position: relative;
+}
+
+.service h2 {
+    text-align: center;
+    justify-content: center;
+    color: rgb(0, 0, 95);
+    font-weight: 600;
+}
+
+.services {
+    padding: 100px 0 130px;
+    background-color: rgb(242, 255, 255);
+}
+
+.services title {
+    padding-bottom: 50px;
+    overflow: hidden;
+    text-align: center !important;
+}
+
+.services title h2 {
+    font-weight: 600;
+    font-size: 35px;
+    color: #232323;
+}
+
+.services title p {
+    color: #848484;
+    margin: 0 auto;
+}
+
+.no-gutters {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.services .service-block.color-bg {
+    background-color: #28ABE3;
+    color: #fff;
+    text-align: center;
+    padding: 1.5rem !important;
+
+}
+
+.services .service-block .service-icon {
+    margin-bottom: 30px;
+}
+
+.services .service-block.color-bg i,
+.services .service-block.color-bg h3,
+.services .service-block.color-bg p {
+    color: #fff;
+}
+
+.services .service-block i {
+    font-size: 75px;
+    color: #28ABE3;
+}
+
+.services .service-block h3 {
+    color: #333;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.services .service-block p {
+    font-size: 14px;
+    /* color: #666; */
+}
+/* our skill */
+.section-sm {
+    padding: 70px 0;
+}
+.team-skill title{
+    padding-bottom: 50px;
+    overflow: hidden;
+}
+.side-fix{
+    justify-content: center;
+    padding: 70px;
+}
+.btn-main {
+    background: #28ABE3;
+    border: 1px solid #28ABE3;
+    color: #fff;
+    display: inline-block;
+    font-size: 14px;
+    letter-spacing: 1px;
+    padding: 12px 40px;
+    text-transform: uppercase;
+    border-radius: 40px;
+    margin-top: 20px;
+}
+
+/* progress bar  */
+.team-skills .progress-block {
+    margin-top: 40px;
+}
+/*------------------------- services page css over ----------------------------- */
+
+
+/* ------------------------ contact page css----------------- */
+.contact {
+    background-image: url(/image/about-header.jpg);
+    /* background-image: linear-gradient(to right,#ffa7b2,#ffdde1); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 300px 0 150px;
+    color: #fff;
+    position: relative;
+}
+
+.contact h2 {
+    text-align: center;
+    justify-content: center;
+    color: rgb(0, 0, 93);
+    font-weight: 600;
+}
+
+/* ------------------------contact page css over ------------------------ */
+
+.contact-us {
+    padding: 100px 0 50px 0;
+}
+.contact-us title{
+    padding-bottom: 50px;
+    overflow: hidden;
+    text-align: center;
+}
+.title p{
+        color: #848484;
+        margin: 0 auto;
+
+}
+.contact-details {
+        box-sizing: border-box;
+        padding: 20px;
+}
+.contact-form #contact-submit {
+    border: none;
+    padding: 15px 0;
+    width: 100%;
+    margin: 0;
+    background: #28ABE3;
+    color: #fff;
+    border-radius: 0;
+}
+.google-map{
+    position: relative;
+    padding-bottom: 50px;
+}
